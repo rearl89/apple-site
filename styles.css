@@ -135,3 +135,31 @@ ul li {
     list-style-type: none;
     font-size: 22px;
 }
+
+@media (max-width: 600px) {
+    .main-nav {
+        size-adjust: auto;
+    }
+    #hero h2 {
+        font-size: 20px;
+    }
+    #hero h3 {
+        font-size: 16px;
+    }
+    #hero p {
+        font-size: 12px;
+    }
+    .stuff ul {
+        font-size: 12px;
+    }
+    ul li {
+        display: inline;
+        margin-left: 1px;
+    }
+    .container-fluid {
+        size-adjust: auto;
+    }
+    .iphone {
+        size-adjust: auto;
+    }
+}
