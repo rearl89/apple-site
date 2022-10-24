@@ -8,7 +8,7 @@ body {
     background-color: rgb(50,50,50);
     padding: 5px;
     position: sticky;
-    top: 0px;
+    top: 0;
     z-index: 1;
     opacity: 95%;
 }
@@ -77,7 +77,7 @@ body {
     left: 65%;
     transform: translate(-50%, -50%);
     color: rgb(158, 161, 168);
-    font-size: 18px;
+    font-size: 22px;
 }
 
 .stuff ul {
@@ -86,6 +86,7 @@ body {
     left: 63%;
     transform: translate(-50%, -50%);
     list-style-type: none;
+    font-size: 22px;
 }
 
 ul li {
@@ -105,4 +106,32 @@ ul li {
     width: 90%;
 }
 
+#iphone14 {
+    width: 100%;
+}
 
+.iphone h2 {
+    position: absolute;
+    top: 108%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 4em;
+}
+
+.iphone h3 {
+    position: absolute;
+    top: 113%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.iphone ul {
+    position: absolute;
+    top: 118%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    list-style-type: none;
+    font-size: 22px;
+}
