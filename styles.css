@@ -76,16 +76,25 @@ body {
     top: 55%;
     left: 65%;
     transform: translate(-50%, -50%);
-    color: rgb(207,208,210);
+    color: rgb(158, 161, 168);
+    font-size: 18px;
 }
 
 .stuff ul {
     position: absolute;
-    display: inline;
     top: 60%;
-    left: 64%;
+    left: 63%;
     transform: translate(-50%, -50%);
     list-style-type: none;
+}
+
+ul li {
+    display: inline;
+    margin-left: 25px;
+}
+
+.stuff a:link {
+    text-decoration: none;
 }
 
 .container-fluid {
